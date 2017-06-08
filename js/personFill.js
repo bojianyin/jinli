@@ -1,0 +1,39 @@
+$(function(){
+	var off=true;
+	var countdown=60; 
+	function settime(obj,lan) { 
+	    if (countdown == 0) { 
+	    	off=true;
+	        $(obj).css("background","#f9752b")  
+	        obj.innerHTML=lan; 
+	        countdown = 60; 
+	        return;
+	    } else { 
+	    	
+	        $(obj).css("background","#929292")  
+	        obj.innerHTML="重新发送(" + countdown + ")"; 
+	        countdown--; 
+	    } 
+	setTimeout(function() { 
+	    settime(obj,lan) }
+	    ,1000)
+	}
+	$(".sendYan button").bind("touchend",function(){
+		if($(".sendYan2 input").val()==""){
+			alert("请先填写图形验证码！")
+		}else{
+			if(off)settime(this,"获取手机验证码"),off=false;
+		}
+	})
+	$(".form_control input[type=submit]").bind("touchend",function(){
+		if($(".sendYan2 input").val()==""){
+			alert("请填写图形验证码！")
+		}else if($(".yanzhenma").val()==""){
+			alert("请填写手机验证码！")
+		}else{
+			//此处交互
+			alert("ajax")
+			location.href="person_success.html"
+		}
+	})
+})

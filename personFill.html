@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>个人资料</title>
+		<link rel="stylesheet" href="css/personFill.css" />
+		<script src="js/zepto.min.js"></script>
+		<script src="js/personFill.js"></script>
+	</head>
+	<body>
+		
+		<div class="tishi">
+			*信息填写完确定之后不可修改
+		</div>
+		<main>
+			<div>
+				<div class="form_control">
+					<input type="text" placeholder="请输入您的账号" readonly="readonly"/>
+				</div>
+				<div class="form_control">
+					<input type="text" placeholder="请输入您的手机号" readonly="readonly"/>
+				</div>
+				<div class="form_control">
+					<input type="text" placeholder="请输入您的真实姓名"/>
+				</div>
+				<div class="form_control">
+					<input type="text" placeholder="请输入您的身份证号码" />
+				</div>
+				<div class="form_control">
+					<input type="text" placeholder="请输入您的金粒电子钱包地址" readonly="readonly"/>
+				</div>
+				<div class="form_control">
+					<input type="text" placeholder="请输入您的区块链钱包地址"/>
+				</div>
+				<div class="form_control">
+					<input type="text" placeholder="请输入您的收货地址"/>
+				</div>
+				
+				<div class="form_control clearfix sendYan sendYan2">
+					<input type="text" placeholder="请输入图形验证码" class="fl"/>
+					<img class="fr" src="img/yanzheng.gif"></button>
+				</div>
+				<div class="form_control clearfix sendYan">
+					<input type="text" placeholder="请输入手机验证码" class="fl yanzhenma"/>
+					<button class="fr" id="btn">获取手机验证码</button>
+				</div>
+				<div class="form_control" style="border:0">
+					<input type="submit" value="保存" />
+				</div>
+			</div>
+		</main>
+		<script src="js/computed.js"></script>
+	</body>
+</html>

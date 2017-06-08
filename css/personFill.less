@@ -1,0 +1,41 @@
+@import "reset.less";
+@num:46.875;
+body{background:#efeff4}
+
+.tishi{
+    font-size:30rem/@num;color:#fff;padding:25rem/@num;background:#f9752b;
+}
+main{
+    padding:0 24rem/@num;padding-bottom:140rem/@num;
+    >div{
+        >.form_control{
+            border:1px solid #d6d7dc;margin-top:48rem/@num;
+            >input{
+                display: block;border:0;outline: none;padding:24rem/@num 0 26rem/@num 0;width:100%;text-indent:1em;font-size:29rem/@num;
+                
+            }
+            >input::-webkit-input-placeholder{
+                color:#cccccc;
+            }
+            >input[type=submit],>input[type=button]{
+                border-radius:6rem/@num;
+            }
+            >input[type=submit]{
+                background:#f9752b;border:0;margin-top:110rem/@num;color:#fff;
+            }
+            >input[type=button]{
+                background:#fff;margin:48rem/@num 0;color:#222;
+            }
+        }
+        >.sendYan{
+            border:0;
+            >input{width:398rem/@num;padding:24rem/@num 0;border:1px solid #d6d7dc;}
+            >button{
+                width:260rem/@num;height:80rem/@num;background:#f9752b;border-radius:8rem/@num;color:#fff;font-size:28rem/@num;
+            }
+            >img{
+                display: block;width:260rem/@num;height:80rem/@num;
+            }
+        }
+    }
+}

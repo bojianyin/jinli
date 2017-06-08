@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>交粮</title>
+		<link rel="stylesheet" href="css/jiaoliang.css" />
+		
+		<link rel="stylesheet" href="css/wxzf.css" />
+		<script src="js/zepto.min.js"></script>
+		<script src="js/jiaoliang.js"></script>
+		
+	</head>
+	<body>
+		
+		<section>
+			<div class="user_info">
+				<p>金粒2号已获取</p>
+				<mark>10,000.00</mark>
+			</div>
+			<div class="user_info">
+				<p>实时价格(元)</p>
+				<mark>3.4</mark>
+			</div>
+		</section>
+		<main>
+			<div class="account_cart">
+				
+				<div class="control control_zhuan">
+					<label for="">输入数量</label>
+					<input type="text" placeholder="请输入交粮数量"/>
+				</div>
+				<div class="control control_hao">
+					<label for="">金粒一号</label>
+					<input type="text" value="0"/>
+				</div>
+				<div class="control control_yan control_yan1">
+					<label for="">验证码</label>
+					<input type="text" placeholder="请输入您的手机验证码"/>
+					<div class="send_yan">
+						发送验证码
+					</div>
+				</div>
+				<div class="control control_yan" id="tu">
+					<label for="">图形验证码</label>
+					<input type="text" placeholder="请输入右侧验证码"/>
+					<img src="img/yanzheng.gif" alt="" />
+				</div>
+				<button class="btn_finsh">提交</button>
+				<button class="close_btn" onclick="location.href='index.html'">返回</button>
+			</div>
+			
+			
+		</main>
+		<div class="zhifu">
+			<div class="black_blc"></div>
+			<div class="ftc_wzsf">
+			  <div class="srzfmm_box">
+			    <div class="qsrzfmm_bt clear_wl"><span class="fl close">&times;</span><span>请输入支付密码</span> </div>
+			    <div class="zfmmxx_shop" style="border-bottom:1px solid #ccc">
+			      <div class="mz">交粮数量</div>
+			      <div class="wxzf_price">1254</div>
+			    </div>
+			   
+			    <ul class="mm_box">
+			      <li></li>
+			      <li></li>
+			      <li></li>
+			      <li></li>
+			      <li></li>
+			      <li></li>
+			    </ul>
+			  </div>
+			  <div class="numb_box">
+			    <ul class="nub_ggg">
+			      <li><a href="javascript:void(0);">1</a></li>
+			      <li><a href="javascript:void(0);" class="zj_x">2</a></li>
+			      <li><a href="javascript:void(0);">3</a></li>
+			      <li><a href="javascript:void(0);">4</a></li>
+			      <li><a href="javascript:void(0);" class="zj_x">5</a></li>
+			      <li><a href="javascript:void(0);">6</a></li>
+			      <li><a href="javascript:void(0);">7</a></li>
+			      <li><a href="javascript:void(0);" class="zj_x">8</a></li>
+			      <li><a href="javascript:void(0);">9</a></li>
+			      <li><span></span></li>
+			      <li><a href="javascript:void(0);" class="zj_x">0</a></li>
+			      <li><span  class="del" > <img src="img/delt.gif" style="width:1rem;height:0.7rem"></span></li>
+			    </ul>
+			  </div>
+			  <div class="hbbj"></div>
+			</div>
+		</div>
+		<script src="js/computed.js"></script>
+	</body>
+</html>

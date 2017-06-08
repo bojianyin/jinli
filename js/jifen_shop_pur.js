@@ -1,0 +1,33 @@
+$(function(){
+	var n=1;
+	$(".add>input").val(n);
+	$(".add>div").bind("touchend",function(){
+		if($(this).html()=="-"){
+			if(n<=2){
+				n=1;
+				$(this).addClass("no");
+			}else{
+				n--;
+			}
+			$(".add>input").val(n);
+		}else{
+			n++;
+			$(".no").removeClass("no");
+			$(".add>input").val(n);
+		}
+	})
+	$(".close").bind("touchend",function(){
+		$(".bla_block").addClass("hide")
+		$(".model_fade").addClass("zdx")
+		$("body").css("position","relative")
+	})
+	$(".goumai").bind("touchend",function(){
+		$(".bla_block").removeClass("hide")
+		$(".model_fade").removeClass("zdx")
+		$("body").css("position","fixed")
+	})
+		
+	$(".next").bind("touchend",function(){
+		location.href="jifen_shop_isgo.html"
+	})
+})

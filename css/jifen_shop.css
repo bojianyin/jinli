@@ -1,0 +1,287 @@
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote,
+q {
+  quotes: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+body {
+  background: #fff;
+}
+/* 重置body 页面背景为白色 */
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1 ;
+  font-family: "微软雅黑", "黑体", "宋体";
+  color: #666;
+}
+/* 重置页面文字属性 */
+a,
+button {
+  color: #666;
+  text-decoration: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+/* 重置样式标签的样式 */
+caption {
+  display: none;
+}
+/* 重置表格标题为隐藏 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+/* 重置table属性 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 0;
+  height: 0;
+}
+figure,
+article,
+hgroup {
+  margin: 0;
+}
+body {
+  background: #efeff4;
+}
+main {
+  width: 100%;
+  height: 4.096rem;
+  background: url(../img/jifen_shop_userInfo.gif) no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+}
+main > .user {
+  width: 3.79733333rem;
+  height: 100%;
+  overflow: hidden;
+}
+main > .user > .tx,
+main > .user > .tx > img {
+  width: 2.45333333rem;
+  overflow: hidden;
+}
+main > .user .tx {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 0.768rem 0 0 0.768rem;
+}
+main > .user_jifen {
+  -webkit-box-flex: 1;
+  text-align: left;
+  padding: 1.23733333rem 0 0 0;
+}
+main > .user_jifen > mark {
+  background: transparent;
+  color: #fff;
+  font-size: 0.64rem;
+}
+main > .user_jifen > p {
+  color: #fff;
+  font-size: 0.53333333rem;
+  padding-top: 0.448rem;
+}
+main > .user_jifen > p > em {
+  font-size: 0.78933333rem;
+  font-weight: bold;
+  color: #fff;
+}
+section {
+  padding: 1.32266667rem 0.55466667rem 0 0.55466667rem;
+  position: relative;
+  margin-bottom: 2.2rem;
+}
+section > .title {
+  height: 1.32266667rem;
+  position: absolute;
+  top: 0.36266667rem;
+  left: 0.832rem;
+}
+section > .title > span {
+  font-size: 0.576rem;
+  color: #707072;
+  font-weight: bold;
+  border-left: 4px solid #f9752b;
+  padding-left: 0.21333333rem;
+}
+section > .shops {
+  height: 8.96rem;
+  width: 100%;
+  display: -webkit-box;
+  padding-bottom: 0.512rem;
+}
+section > .shops > a {
+  -webkit-box-flex: 1;
+  background: #fff;
+  display: block;
+}
+section > .shops > a > figure {
+  width: 100%;
+  height: 6.03733333rem;
+  margin: 0;
+}
+section > .shops > a > figure > img {
+  width: 7.232rem;
+}
+section > .shops > a > hgroup {
+  padding-left: 0.512rem;
+}
+section > .shops > a > hgroup > h2 {
+  font-size: 0.59733333rem;
+  color: #222;
+  padding: 0.36266667rem 0 0.61866667rem;
+}
+section > .shops > a > hgroup > p > span {
+  font-size: 0.46933333rem;
+}
+section > .shops > a > hgroup > p > mark {
+  color: #f9752b;
+  font-size: 0.78933333rem;
+  background: transparent;
+}
+section > .shops > a:first-of-type {
+  margin-right: 0.256rem;
+}
+section > .shops > a:last-of-type {
+  margin-left: 0.256rem;
+}
+.index_nav {
+  width: 100%;
+  height: 2.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  background: #fff;
+}
+.index_nav > a {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+.index_nav > a > img {
+  height: 0.91733333rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.27733333rem;
+}
+.index_nav > a > strong {
+  font-size: 0.448rem;
+  position: absolute;
+  bottom: 0.192rem;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.index_nav > a:nth-child(2) > strong {
+  color: #F9752B;
+}

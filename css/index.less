@@ -1,0 +1,75 @@
+@import "reset.less";
+@num:46.875;
+section{
+    height:280rem/46.875;width:100%;position:relative;padding-bottom:58rem/46.875;
+    >a,>a>img{display: block;width:100%;height:100%}
+    >.detail{
+        display:block;width:auto;height:58rem/46.875;padding-left:24rem/46.875;position:absolute;bottom:0;left:0;line-height:58rem/46.875;overflow: hidden;
+        >font{color:#222222;font-weight:bold;}
+        >span{color:#929292;text-overflow: ellipsis;}
+        >font,>span{font-size:21rem/46.875}
+    }
+}
+.shuju{
+    height:198rem/46.875;background:#f9752b;padding:0 24rem/46.875;
+    >.shuju_top{
+        height:69rem/46.875;border-bottom:1px solid #e0e0e0;width:100%;display:-webkit-box;
+        >div{-webkit-box-flex:1;color:#fff;line-height:69rem/46.875;font-size:29rem/46.875;}
+    }
+    >.chanpin{
+        height:128rem/46.875;width:100%;display: -webkit-box;
+        >div{
+            margin-top:34rem/46.875;
+        }
+        >.chan{
+            width:479rem/46.875;border-right:1px solid #fff;height:60rem/46.875;display:-webkit-box;
+            >div{
+                height:100%;-webkit-box-flex:1;
+                >.title{
+                    font-size:24rem/@num;color:#fff;margin-top:-7rem/@num;margin-bottom:20rem/@num;
+                }
+                >.prize{
+                    color:#fff;font-size:37rem/@num;
+                }
+            }
+            >div:first-child{
+              width:200rem/@num; 
+            }
+           
+        }
+        >.shouhuo{
+            -webkit-box-flex:1;padding-left:32rem/46.875;height:100%;
+            >.title{
+                font-size:24rem/@num;color:#fff;margin-top:-7rem/@num;margin-bottom:20rem/@num;
+            }
+            >.prize{
+                color:#fff;font-size:37rem/@num;
+            }
+        }
+    }
+}
+main{
+    height:572rem/46.875;width:100%;margin-bottom:97rem/46.875;
+    >div.menus{
+        height:190rem/46.875;display: -webkit-box;
+        >.content{display:block;-webkit-box-flex:1;text-align: center;height:100%;border-right:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;position:relative;
+            >img{
+                width:70rem/46.875;margin-top:39rem/46.875;
+            }
+            >h2{font-size:23rem/46.875;color:#222222;position:absolute;bottom:40rem/46.875;width:100%;text-align: center;font-weight:normal;}
+        }
+        >.content:last-child{border-right:0}
+        
+    }
+    
+}
+.index_nav{
+    width:100%;height:2.2rem;position:fixed;bottom:0;left:0;display:-webkit-box;background:#fff;
+    >a{
+        -webkit-box-flex:1;text-align: center;position:relative;height:100%;display: block;
+        >img{height:43rem/46.875;display: block;margin:0 auto;margin-top:13rem/46.875;}
+        >strong{font-size:21rem/46.875;position:absolute;bottom:9rem/46.875;width:100%;text-align:center;display: block;}
+        
+    }
+    >a:first-of-type>strong{color: #F9752B;}
+}

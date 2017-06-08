@@ -1,0 +1,289 @@
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote,
+q {
+  quotes: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+body {
+  background: #fff;
+}
+/* 重置body 页面背景为白色 */
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1 ;
+  font-family: "微软雅黑", "黑体", "宋体";
+  color: #666;
+}
+/* 重置页面文字属性 */
+a,
+button {
+  color: #666;
+  text-decoration: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+/* 重置样式标签的样式 */
+caption {
+  display: none;
+}
+/* 重置表格标题为隐藏 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+/* 重置table属性 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 0;
+  height: 0;
+}
+figure,
+article,
+hgroup {
+  margin: 0;
+}
+body {
+  background: #efeff4;
+}
+.person_info {
+  height: 3.84rem;
+  background: #fff;
+  margin-top: 0.34133333rem;
+  overflow: hidden;
+}
+.person_info > .user {
+  margin-top: 0.68266667rem;
+  color: #222;
+  margin-left: 0.512rem;
+  margin-bottom: 0.704rem;
+}
+.person_info > .user > em {
+  font-size: 0.61866667rem;
+  padding-right: 0.576rem;
+}
+.person_info > .user > span {
+  font-size: 0.49066667rem;
+}
+.person_info > .address {
+  font-size: 0.49066667rem;
+  color: #929292;
+  padding-left: 0.512rem;
+  line-height: 0.66133333rem;
+}
+.shan_shop {
+  height: 6.86933333rem;
+  padding: 0 0.512rem;
+  margin-top: 0.512rem;
+  background: #fff;
+}
+.shan_shop > .shop_top {
+  width: 100%;
+  display: -webkit-box;
+  height: 5.12rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.shan_shop > .shop_top > figure {
+  width: 4.33066667rem;
+  height: 100%;
+}
+.shan_shop > .shop_top > figure > img {
+  width: 3.41333333rem;
+  height: 3.41333333rem;
+  margin-top: 0.85333333rem;
+}
+.shan_shop > .shop_top > .deir {
+  width: 9.38666667rem;
+  height: 100%;
+}
+.shan_shop > .shop_top > .deir > h2 {
+  font-size: 0.55466667rem;
+  margin-top: 1.088rem;
+  color: #222;
+  line-height: 0.768rem;
+  font-weight: normal;
+}
+.shan_shop > .shop_top > .num {
+  height: 100%;
+  -webkit-box-flex: 1;
+  text-align: right;
+  color: #222;
+}
+.shan_shop > .shop_top > .num > div:first-child {
+  margin-top: 1.10933333rem;
+}
+.shan_shop > .shop_top > .num > div:last-child {
+  margin-top: 2.32533333rem;
+}
+.shan_shop > .shop_bottom {
+  height: 1.728rem;
+}
+.shan_shop > .shop_bottom > div {
+  color: #222;
+  line-height: 1.728rem;
+}
+.shan_shop > .shop_bottom > div:last-child {
+  color: #f9752b;
+}
+.liuyan {
+  height: 1.74933333rem;
+  background: #fff;
+  width: 100%;
+  display: -webkit-box;
+  margin-top: 0.512rem;
+}
+.liuyan > div.wenzi {
+  -webkit-box-flex: 1;
+  text-align: left;
+  line-height: 1.74933333rem;
+  font-size: 0.59733333rem;
+  color: #222;
+  padding-left: 0.49066667rem;
+}
+.liuyan > input {
+  display: block;
+  -webkit-box-flex: 3;
+  font-size: 0.55466667rem;
+  outline: none;
+  border: 0;
+  height: 100%;
+}
+.tijiao {
+  height: 2.09066667rem;
+  border-top: 2px solid #e0e0e0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  background: #fff;
+}
+.tijiao > .totals {
+  width: 11.73333333rem;
+  height: 100%;
+  text-align: right;
+  line-height: 2.09066667rem;
+}
+.tijiao > .totals > span {
+  font-size: 0.61866667rem;
+}
+.tijiao > .totals > strong {
+  font-size: 0.59733333rem;
+  color: #f9752b;
+  padding-right: 1.024rem;
+}
+.tijiao > a {
+  display: block;
+  -webkit-box-flex: 1;
+  height: 100%;
+  background: #f9752b;
+  text-align: center;
+  color: #fff;
+  line-height: 2.09066667rem;
+}

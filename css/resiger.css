@@ -1,0 +1,266 @@
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote,
+q {
+  quotes: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+body {
+  background: #fff;
+}
+/* 重置body 页面背景为白色 */
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1 ;
+  font-family: "微软雅黑", "黑体", "宋体";
+  color: #666;
+}
+/* 重置页面文字属性 */
+a,
+button {
+  color: #666;
+  text-decoration: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+/* 重置样式标签的样式 */
+caption {
+  display: none;
+}
+/* 重置表格标题为隐藏 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+/* 重置table属性 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 0;
+  height: 0;
+}
+figure,
+article,
+hgroup {
+  margin: 0;
+}
+section {
+  height: 5.76rem;
+  width: 100%;
+  position: relative;
+}
+section > a,
+section > a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+main {
+  padding: 1.10933333rem 0.61866667rem 2.73066667rem 0.68266667rem;
+}
+main > div {
+  display: block;
+  width: 100%;
+}
+main > div > div.form_control {
+  height: 1.83466667rem;
+  border: 1px solid #929292;
+  margin-bottom: 0.61866667rem;
+  padding-left: 0.55466667rem;
+  display: -webkit-box;
+}
+main > div > div.form_control > font {
+  display: block;
+  color: #222222;
+  font-size: 0.74666667rem;
+  line-height: 1.83466667rem;
+  padding-right: 0.64rem;
+}
+main > div > div.form_control > input {
+  display: block;
+  -webkit-box-flex: 3;
+  border: 0;
+  outline: none;
+  height: 100%;
+  font-size: 0.61985679rem;
+}
+main > div > div.form_control > input::-webkit-input-placeholder {
+  color: #ccc;
+}
+main > div > div.form_control > .send {
+  width: 4.69333333rem;
+  height: 1.70666667rem;
+  border-radius: 0.08533333rem;
+  background: #929292;
+  text-align: center;
+  line-height: 1.70666667rem;
+  color: #fff;
+  font-size: 0.59733333rem;
+}
+main > div .form_control2 {
+  width: 9.55733333rem;
+  border: 1px solid #929292;
+  height: 1.83466667rem;
+  display: -webkit-box;
+}
+main > div .form_control2 > font {
+  display: block;
+  color: #222222;
+  font-size: 0.74666667rem;
+  line-height: 1.83466667rem;
+  height: 100%;
+  padding-left: 0.55466667rem;
+  padding-right: 0.64rem;
+}
+main > div .form_control2 > input {
+  display: block;
+  -webkit-box-flex: 1;
+  border: 0;
+  outline: none;
+  height: 100%;
+  font-size: 0.61985679rem;
+}
+main > div .form_control2 > input::-webkit-input-placeholder {
+  color: #ccc;
+}
+main > div .form_control3 {
+  width: 10.28266667rem;
+}
+main > div > .contrl {
+  height: 1.83466667rem;
+  margin-bottom: 0.61866667rem;
+  display: -webkit-box;
+}
+main > div > .contrl > .send {
+  -webkit-box-flex: 1;
+  height: 1.70666667rem;
+  background: #f9752b ;
+  margin-left: 0.42666667rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.59733333rem;
+  line-height: 1.70666667rem;
+  border-radius: 0.08533333rem;
+  margin-top: 0.08533333rem;
+}
+main > div > .contrl > img {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.42666667rem;
+  height: 1.70666667rem;
+}
+main > div > button {
+  display: block;
+  width: 100%;
+  border-radius: 0.17066667rem;
+  height: 1.87733333rem;
+  background: #f9752b;
+  line-height: ;
+  text-align: center;
+  color: #fff;
+  font-size: 0.59733333rem;
+}

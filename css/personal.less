@@ -1,0 +1,45 @@
+@import "reset.less";
+@num:46.875;
+body{background:#efeff4}
+
+.container{height:487rem/@num;width:100%;background:url(../img/per_banner.gif) no-repeat;background-size:cover;overflow: hidden;position:relative;
+    >.user_tx{
+        width:173rem/@num;height:173rem/@num;border-radius:50%;border:2px solid #fff;margin:58rem/@num auto 24rem/@num auto;overflow: hidden;
+        >img{width:100%;height:100%}
+    }
+    >p{font-size:29rem/@num;color:#fff;text-align: center;}
+    >.user_info{
+        height:100rem/@num;width:100%;background: #af4e01;position:absolute;bottom:0;left:0;display: -webkit-box;padding:15rem/@num 0;
+        >div{
+            -webkit-box-flex:1;height:100%;padding-left:58rem/@num;
+            >p{font-size:23rem/@num;padding-bottom:23rem/@num;}
+            >mark{font-size:44rem/@num;}
+            >p,>mark{background:transparent;color:#fff;}
+        }
+        >div:last-of-type{border-left:1px solid #fff;padding-left:32rem/@num;}
+    }
+}
+main{
+    background: #fff;margin-top:30rem/@num;padding:0 24rem/@num 0 22rem/@num;margin-bottom:2.2rem;
+    >.user_list{
+        display:block;height:88rem/@num;border-bottom:2px solid #e0e0e0;display: -webkit-box;line-height:88rem/@num;width:100%;
+        >.user_list_tu{
+            width:56rem/@num;height:100%;
+        }
+        >.user_cont{font-size:29rem/@num;color:#222222;-webkit-box-flex:1}
+        >.user_icon{width:18rem/@num;
+            >img{width:100%;margin-top:27rem/@num;}
+        }
+    }
+}
+main>.user_list>.user_list_tu img{width:34rem/@num;height:30rem/@num;margin-top:27rem/@num;}
+//尾部菜单
+.index_nav{
+    width:100%;height:2.2rem;position:fixed;bottom:0;left:0;display:-webkit-box;background:#fff;
+    >a{
+        display:block;-webkit-box-flex:1;text-align: center;position:relative;height:100%;
+        >img{height:43rem/46.875;display: block;margin:0 auto;margin-top:13rem/46.875;}
+        >strong{font-size:21rem/46.875;position:absolute;bottom:9rem/46.875;width:100%;text-align:center;display: block;}
+    }
+    >a:last-child>strong{color:#F9752B}
+}

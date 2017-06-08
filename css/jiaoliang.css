@@ -1,0 +1,309 @@
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote,
+q {
+  quotes: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+body {
+  background: #fff;
+}
+/* 重置body 页面背景为白色 */
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1 ;
+  font-family: "微软雅黑", "黑体", "宋体";
+  color: #666;
+}
+/* 重置页面文字属性 */
+a,
+button {
+  color: #666;
+  text-decoration: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+/* 重置样式标签的样式 */
+caption {
+  display: none;
+}
+/* 重置表格标题为隐藏 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+/* 重置table属性 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 0;
+  height: 0;
+}
+figure,
+article,
+hgroup {
+  margin: 0;
+}
+body {
+  background: #efeff4;
+}
+section {
+  width: 100%;
+  height: 3.15733333rem;
+  background: #f9752b;
+  display: -webkit-box;
+}
+section > .user_info {
+  -webkit-box-flex: 1;
+  padding-left: 0.768rem;
+}
+section > .user_info > p {
+  font-size: 0.512rem;
+  color: #fff;
+  margin: 0.74666667rem 0 0.32rem 0;
+}
+section > .user_info > mark {
+  background: transparent;
+  font-size: 0.704rem;
+  color: #fff;
+}
+main {
+  /*padding:41rem/46.875 30rem/46.875 0 30rem/46.875;*/
+  background: #fff;
+  margin-top: 0.36266667rem;
+}
+main > .account_cart {
+  border-radius: 0.14933333rem;
+  padding: 0.96rem 1.45066667rem 0 1.36533333rem;
+  padding-bottom: 3.05066667rem;
+  position: relative;
+}
+main > .account_cart > .control {
+  height: 2.688rem;
+  margin-bottom: 1.28rem;
+}
+main > .account_cart > .control > label,
+main > .account_cart > .control > input,
+main > .account_cart > .control > span {
+  display: block;
+}
+main > .account_cart > .control > label {
+  font-size: 0.576rem;
+  color: #222;
+  padding-bottom: 0.96rem;
+}
+main > .account_cart > .control > input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 0.512rem;
+  width: 100%;
+  font-size: 0.61866667rem;
+}
+main > .account_cart > .control_zhuan {
+  padding-bottom: 1.06666667rem;
+  position: relative;
+  margin-bottom: 0;
+}
+main > .account_cart > .control_zhuan > span {
+  position: absolute;
+  bottom: 0;
+}
+main > .account_cart > .control_yan {
+  margin-bottom: 0;
+  position: relative;
+}
+main > .account_cart > .control_yan > .send_yan {
+  width: 5.07733333rem;
+  height: 1.664rem;
+  border: 1px solid #F9752B;
+  border-radius: 0.14933333rem;
+  text-align: center;
+  color: #F9752B;
+  line-height: 1.664rem;
+  position: absolute;
+  right: 0;
+  top: 0.61866667rem;
+}
+main > .account_cart > .control_hao > input {
+  color: #f9752b;
+}
+main > .account_cart > .control_yan1 {
+  margin-bottom: 1.32266667rem;
+}
+main > .account_cart > .account_zhuan {
+  height: 3.904rem;
+  position: absolute;
+  bottom: 0;
+  width: 12.20476648rem;
+}
+main > .account_cart > .account_zhuan > button {
+  width: 100%;
+  height: 1.87733333rem;
+  background: #F9752B;
+  color: #fff;
+  line-height: 1.87733333rem;
+  border-radius: 0.14933333rem;
+}
+main > .account_cart > .account_zhuan > a {
+  color: #F9752B;
+  font-size: 0.46933333rem;
+  float: right;
+  padding-top: 0.512rem;
+}
+main > .account_cart > button {
+  width: 100%;
+  height: 1.87733333rem;
+  background: #f9752b;
+  color: #fff;
+  font-size: 0.59733333rem;
+  margin: 1.32266667rem auto 0 auto;
+  display: block;
+  border-radius: 0.17066667rem;
+}
+main > .account_cart > .btn_finsh {
+  margin-top: 2.56rem;
+}
+main > .account_cart > .close_btn {
+  background: #fff;
+  border: 1px solid #d6d7dc;
+  color: #222;
+  margin-top: 1.024rem;
+  outline: none;
+}
+#tu > img {
+  width: 4.8rem;
+  height: 1.70666667rem;
+  position: absolute;
+  right: 0;
+  top: 0.61866667rem;
+}
+.zhifu.show {
+  display: block;
+  z-index: 2;
+}
+.zhifu.non {
+  display: block;
+  z-index: -1;
+}
+.zhifu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.zhifu > .black_blc {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

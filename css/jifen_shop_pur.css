@@ -1,0 +1,345 @@
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote,
+q {
+  quotes: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+body {
+  background: #fff;
+}
+/* 重置body 页面背景为白色 */
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1 ;
+  font-family: "微软雅黑", "黑体", "宋体";
+  color: #666;
+}
+/* 重置页面文字属性 */
+a,
+button {
+  color: #666;
+  text-decoration: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+/* 重置样式标签的样式 */
+caption {
+  display: none;
+}
+/* 重置表格标题为隐藏 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+/* 重置table属性 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 0;
+  height: 0;
+}
+figure,
+article,
+hgroup {
+  margin: 0;
+}
+body {
+  background: #efeff4;
+}
+main {
+  width: 100%;
+}
+main > figure {
+  width: 100%;
+  height: 14.784rem;
+}
+main > figure > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+main > hgroup {
+  padding: 0.72533333rem 0 0.832rem 0.512rem;
+  background: #fff;
+}
+main > hgroup > h1 {
+  font-size: 0.74666667rem;
+  color: #222222;
+}
+main > hgroup > div {
+  margin: 0.768rem 0 0.66133333rem 0;
+}
+main > hgroup > div > span {
+  font-size: 0.46933333rem;
+  color: #222;
+  padding-right: 0.512rem;
+}
+main > hgroup > div > mark {
+  background: transparent;
+  color: #f9752b;
+  font-weight: bold;
+  font-size: 1.00266667rem;
+}
+main > hgroup > font {
+  font-size: 0.512rem;
+  color: #929292;
+  line-height: 0.68266667rem;
+}
+section {
+  margin-top: 0.384rem;
+  margin-bottom: 2.09066667rem;
+}
+section .title {
+  height: 1.74933333rem;
+  background: #fff;
+  line-height: 1.74933333rem;
+}
+section .title > span {
+  font-size: 0.61866667rem;
+  color: #929292;
+  padding-left: 0.21333333rem;
+  border-left: 0.064rem solid #f9752b;
+  position: relative;
+  left: 0.512rem;
+}
+section > figure {
+  width: 100%;
+  height: 14.784rem;
+}
+section > figure > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.goumai {
+  width: 100%;
+  height: 2.09066667rem;
+  border-top: 1px solid #e0e0e0;
+  background: #f9752b;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 2.09066667rem;
+  font-size: 0.61866667rem;
+}
+.bla_block {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.bla_block.hide {
+  display: none;
+  z-index: -1;
+}
+.model_fade.zdx {
+  display: none;
+  z-index: -1;
+}
+.model_fade {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 8.448rem;
+  background: #fff;
+  padding: 0 0.7rem;
+  z-index: 2;
+}
+.model_fade > .shop_info {
+  padding: 0.512rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  display: -webkit-box;
+}
+.model_fade > .shop_info > figure {
+  width: 2.73066667rem;
+}
+.model_fade > .shop_info > figure > img {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+}
+.model_fade > .shop_info > .info {
+  width: 11.17866667rem;
+}
+.model_fade > .shop_info > .info > h2 {
+  font-size: 0.576rem;
+  color: #222;
+  margin-bottom: 0.64rem;
+  margin-top: 0.08533333rem;
+}
+.model_fade > .shop_info > .info > div > span {
+  font-size: 0.46933333rem;
+  color: #929292;
+}
+.model_fade > .shop_info > .info > div > strong {
+  font-size: 0.46933333rem;
+  color: #f9752b;
+}
+.model_fade > .shop_info > .close {
+  -webkit-box-flex: 1;
+}
+.model_fade > .shop_info > .close > img {
+  width: 0.85333333rem;
+}
+.model_fade > .num > div {
+  font-size: 0.59733333rem;
+  color: #222;
+  padding-top: 0.832rem;
+}
+.model_fade > .num > div > p {
+  margin-bottom: 0.34133333rem;
+}
+.model_fade > .num > div > .add {
+  width: 4.69333333rem;
+  height: 1.19466667rem;
+  display: -webkit-box;
+}
+.model_fade > .num > div > .add > div,
+.model_fade > .num > div > .add > input {
+  width: 1.536rem;
+  height: 1.152rem;
+  border: 1px solid #222;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 1.152rem;
+  outline: none;
+}
+.model_fade > .num > div > .add > div.no {
+  border-color: #e8e8e8;
+  background: #f8f8f8;
+  color: #929292;
+}
+.model_fade > .num > div > .add > div:first-child {
+  border-right: 0;
+}
+.model_fade > .num > div > .add > div:last-child {
+  border-left: 0;
+}
+.model_fade > .num > div > .add > input {
+  font-size: 0.384rem;
+}
+.model_fade > .next {
+  width: 100%;
+  height: 2.13333333rem;
+  line-height: 2.13333333rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.59733333rem;
+  background: #f9752b;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+body {
+  position: relative;
+}

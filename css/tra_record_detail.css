@@ -1,0 +1,220 @@
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote,
+q {
+  quotes: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+body {
+  background: #fff;
+}
+/* 重置body 页面背景为白色 */
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1 ;
+  font-family: "微软雅黑", "黑体", "宋体";
+  color: #666;
+}
+/* 重置页面文字属性 */
+a {
+  color: #666;
+  text-decoration: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+/* 重置样式标签的样式 */
+caption {
+  display: none;
+}
+/* 重置表格标题为隐藏 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+/* 重置table属性 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 0;
+  height: 0;
+}
+figure,
+article,
+hgroup {
+  margin: 0;
+}
+body {
+  background: #efeff4;
+}
+section {
+  background: #fff;
+}
+section > .user_info {
+  padding: 0.72533333rem 0 1.024rem 0;
+  display: -webkit-box;
+}
+section > .user_info > div {
+  -webkit-box-flex: 1;
+}
+section > .user_info > div > img {
+  width: 1.19466667rem;
+  height: 1.19466667rem;
+  padding-right: 0.42666667rem;
+}
+section > .user_info > div.fig {
+  text-align: right;
+}
+section > .user_info > div.text {
+  text-align: left;
+  line-height: 1.19466667rem;
+  font-size: 0.72533333rem;
+  color: #222;
+}
+section > p,
+section > span {
+  text-align: center;
+  display: block;
+}
+section > p {
+  font-size: 0.98133333rem;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 0.53333333rem;
+}
+section > span {
+  font-size: 0.61866667rem;
+  color: #929292;
+}
+section > ul {
+  padding: 0.72533333rem 0.66133333rem 0 0.66133333rem;
+  margin-top: 0.66133333rem;
+}
+section > ul > li {
+  height: 1.664rem;
+  line-height: 1.664rem;
+  display: -webkit-box;
+}
+section > ul > li > div {
+  -webkit-box-flex: 1;
+  font-size: 0.61866667rem;
+  color: #929292;
+}
+section > ul > li > div:first-child {
+  text-align: left;
+}
+section > ul > li > div:last-child {
+  text-align: right;
+}
+section > ul > li:last-child {
+  border-bottom: 1px solid #e0e0e0;
+}
+section > ul:last-child {
+  margin-top: 0;
+}
+section > ul:last-child > li:last-child {
+  border-bottom: 0;
+}

@@ -1,0 +1,63 @@
+@import "reset.less";
+@num:46.875;
+body{background: #efeff4;}
+
+main{
+    width:100%;height:192rem/@num;background:url(../img/jifen_shop_userInfo.gif) no-repeat;background-size:cover;display: -webkit-box;
+    >.user{
+        width:178rem/@num;height:100%;overflow: hidden;
+        >.tx,>.tx>img{width:115rem/@num;overflow: hidden;}
+        .tx{border-radius:50%;border:2px solid #fff;margin:36rem/@num 0 0 36rem/@num;}
+    }
+    >.user_jifen{-webkit-box-flex:1;text-align: left;padding:58rem/@num 0 0 0;
+        >mark{background:transparent;color:#fff;font-size:30rem/@num;}
+        >p{color:#fff;font-size:25rem/@num;padding-top:21rem/@num;
+            >em{
+                font-size:37rem/@num;font-weight:bold;color:#fff;
+            }
+        }
+    }
+}
+section{padding:62rem/@num 26rem/@num 0 26rem/@num;position:relative;margin-bottom:2.2rem;
+    >.title{height:62rem/@num;position:absolute;top:17rem/@num;left:39rem/@num;
+        >span{
+            font-size:27rem/@num;color:#707072;font-weight:bold;border-left:4px solid #f9752b;padding-left:10rem/@num;
+        }
+    }
+    >.shops{
+        height:420rem/@num;width:100%;display:-webkit-box;padding-bottom:24rem/@num;
+        >a{-webkit-box-flex:1;background:#fff;display: block;
+            >figure{
+                width:100%;height:283rem/@num;margin:0;
+                >img{width:339rem/@num;}
+            }
+            >hgroup{
+                padding-left:24rem/@num;
+                >h2{font-size:28rem/@num;color:#222;padding:17rem/@num 0 29rem/@num;}
+                >p{
+               
+                    >span{
+                        font-size:22rem/@num;
+                    }
+                    >mark{
+                        color:#f9752b;font-size:37rem/@num;background:transparent;                        
+                    }
+                }
+            }
+        }
+        >a:first-of-type{margin-right:12rem/@num;}
+        >a:last-of-type{margin-left:12rem/@num;}
+    }
+}
+
+
+.index_nav{
+    width:100%;height:2.2rem;position:fixed;bottom:0;left:0;display:-webkit-box;background:#fff;
+    >a{
+        display:block;-webkit-box-flex:1;text-align: center;position:relative;height:100%;
+        >img{height:43rem/46.875;display: block;margin:0 auto;margin-top:13rem/46.875;}
+        >strong{font-size:21rem/46.875;position:absolute;bottom:9rem/46.875;width:100%;text-align:center;display: block;}
+        
+    }
+    >a:nth-child(2)>strong{color: #F9752B;}
+}
